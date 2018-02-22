@@ -1,0 +1,25 @@
+{
+  "name": "fastify-swagger-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test npx jest --verbose",
+    "precommit": "lint-staged",
+    "prettier:all": "prettier \"./{src,var}/**/*.js\" --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fastify": "^1.0.0-rc.2",
+    "husky": "^0.14.3",
+    "jest": "^22.4.0",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "fastify-static": "^0.8.0",
+    "swagger-ui-dist": "^3.10.0"
+  }
+}
