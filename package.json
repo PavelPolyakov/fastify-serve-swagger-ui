@@ -1,0 +1,36 @@
+{
+  "name": "fastify-serve-swagger-ui",
+  "version": "1.0.0",
+  "description": "Serves swagger-ui for your fastify instance",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test npx jest --verbose",
+    "precommit": "lint-staged",
+    "prettier:all": "prettier \"./{src,var}/**/*.js\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ggit@github.com:PavelPolyakov/fastify-serve-swagger-ui.git"
+  },
+  "keywords": [
+    "fastify",
+    "swagger",
+    "swagger-ui"
+  ],
+  "author": "Pavel Polyakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelPolyakov/fastify-serve-swagger-ui/issues"
+  },
+  "devDependencies": {
+    "fastify": "^1.0.0-rc.2",
+    "husky": "^0.14.3",
+    "jest": "^22.4.0",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "fastify-static": "^0.8.0",
+    "swagger-ui-dist": "^3.10.0"
+  }
+}
